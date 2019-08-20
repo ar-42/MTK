@@ -136,12 +136,13 @@ def login():
                 keluar()
 
         if 'checkpoint' in url:
-            print '\n\x1b[1;91m[!] \x1b[1;93mAkun kena Checkpoint'
+            print '\n\x1b[1;91m[!] \x1b[1;93mAkun FB kena Checkpoint (Karena LOgin Pake Python) Segera Perbaiki Dulu Dan Baca Postingan Berikut Untuk Menghindarinya'
             os.system('rm -rf login.txt')
-            time.sleep(1)
+            os.system('xdg-open https://termux.id/4-cara-untuk-menghindari-checkpoint-facebook/')
+            time.sleep(5)
             keluar()
         else:
-            print '\n\x1b[1;91m[!] Login Gagal'
+            print '\n\x1b[1;91m[!] Login Gagal (Mungkin Username/Pass salah Ketik Coba Login pake Browser dulu'
             os.system('rm -rf login.txt')
             time.sleep(1)
             login()
