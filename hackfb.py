@@ -4,7 +4,7 @@ print '\x1b[1;32mSilahkan Login (bukan login fb) '
 import os, sys
 
 def wa():
-    os.system('xdg-open https://https://omalip.com/id-dan-pass-script-dark-fb')
+    os.system('xdg-open https://omalip.com/id-dan-pass-script-dark-fb')
 
 
 def restart():
