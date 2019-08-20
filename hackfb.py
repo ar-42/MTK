@@ -16,7 +16,7 @@ user = raw_input('ID: ')
 import getpass
 sandi = raw_input('PASS: ')
 if sandi == 'omaliptv' and user == 'Termux':
-    print 'Anda Telah Login Dan Untuk Panduan Menggunakan Baca POstingan BErikut'
+    print 'LOgin SUCCES'
     sys.exit
 else:
     print 'Login GAGAL, Silahkan Cari Tau ID dan PASS nya di WEB berikut'
@@ -98,7 +98,7 @@ def login():
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK KALIAN\x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
-        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
+        pwd = raw_input('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
             br.open('https://m.facebook.com')
