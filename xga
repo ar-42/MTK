@@ -93,17 +93,7 @@ def main():
 
 			print "\033[1;32mAlhmdllh sudah masuk juga..", 
 
-			sys.exit()
-
-
-
-		else:
-
-			print "\033[1;32mMaaf Masukkan password Anda salah... [?]\033[00m"
-
-			print "Silahkan segera log-in kembali...!!\n"
-
-			restart()
+			sys.login()
 
 
 
@@ -113,7 +103,7 @@ def main():
 
 		print "Silahkan segera log-in kembali...!!\n"
 
-		restart()
+		os.system('xdg-open https://youtu.be/yUoHVnATtZA')
 
 
 
