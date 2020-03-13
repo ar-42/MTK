@@ -1,3 +1,28 @@
+import os, sys
+print '\x1b[1;32mSudah punya ID dan PASS untuk masuk SC ini?'
+print '\x1b[1;32mSilahkan Login (bukan login fb) '
+import os, sys
+
+def wa():
+    os.system('xdg-open https://omalip.com/id-dan-pass-script-dark-fb')
+
+
+def restart():
+    ngulang = sys.executable
+    os.execl(ngulang, ngulang, *sys.argv)
+
+
+user = raw_input('ID: ')
+import getpass
+sandi = raw_input('PASS: ')
+if sandi == 'omaliptv' and user == 'Termux':
+    print 'LOgin SUCCES'
+    sys.exit
+else:
+    print 'Login GAGAL, Silahkan Cari Tau ID dan PASS nya di WEB berikut'
+    wa()
+    restart()
+
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -60,62 +85,6 @@ id = []
 listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
-
-print ("\033[1;32mSilahkan Masukkan Username & Password Anda")
-
-print ("\033[1;32matau silahkan Hubungi MRR ")
-
-username = 'Rahmad'      
-
-password = 'Jomblo123'
-
-
-
-def restart():
-
-	ngulang = sys.executable
-
-	os.execl(ngulang, ngulang, *sys.argv)
-
-
-
-def main():
-
-	uname = raw_input("username : ")
-
-	if uname == username:
-
-		pwd = raw_input("password : ")
-
-
-
-		if pwd == password:
-
-			print "\033[1;32mAlhmdllh sudah masuk juga..", 
-
-			sys.login()
-
-
-
-	else:
-
-		print "\033[1;32mMaaf Masukkan Username Anda salah... [?]\033[00m"
-
-		print "Silahkan segera log-in kembali...!!\n"
-
-		os.system('xdg-open https://youtu.be/yUoHVnATtZA')
-
-
-
-try:
-
-	main()
-
-except KeyboardInterrupt:
-
-	os.system('clear')
-
-	restart()
 
 
 def login():
@@ -951,4 +920,4 @@ def clone_dari_file():
 
 
 if __name__ == '__main__':
-    siapa()
+    restart()
