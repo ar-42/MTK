@@ -15,6 +15,7 @@ if($asu == 1) {
 	$jmlh2=trim(fgets(STDIN,1024));
 	$jmlhnya = $jmlh1+$jmlh2;
 	echo "Hasil Dari ".$jmlh1."+".$jmlh2." Adalah ".$jmlhnya;
+        echo " ";
 
 }
 elseif($asu == 2) {
