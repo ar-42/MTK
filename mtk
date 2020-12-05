@@ -15,6 +15,7 @@ if($asu == 1) {
 	$jmlh2=trim(fgets(STDIN,1024));
 	$jmlhnya = $jmlh1+$jmlh2;
 	echo "Hasil Dari ".$jmlh1."+".$jmlh2." Adalah ".$jmlhnya;
+
 }
 elseif($asu == 2) {
 	echo "Masukan Pengurangan: ";
@@ -23,6 +24,7 @@ elseif($asu == 2) {
 	$pmgn2=trim(fgets(STDIN,1024));
 	$pmgnnya = $pmgn1-$pmgn2;
 	echo "Hasil Dari ".$pmgn1."-".$pmgn2." Adalah ".$pmgnnya;
+
 }
 elseif($asu == 3) {
 	echo "Masukan Perkalian: ";
@@ -31,6 +33,7 @@ elseif($asu == 3) {
 	$pkln2=trim(fgets(STDIN,1024));
 	$pklnnya = $pkln1*$pkln2;
 	echo "Hasil Dari ".$pkln1."*".$pkln2." Adalah ".$pklnnya;
+
 }
 elseif($asu == 4) {
 	echo "Masukan Pembagian: ";
@@ -39,5 +42,6 @@ elseif($asu == 4) {
 	$pmbgn2=trim(fgets(STDIN,1024));
 	$pmbgnnya = $pmbgn1/$pmbgn2;
 	echo "Hasil Dari ".$pmbgn1."/".$pmbgn2." Adalah ".$pmbgnnya;
+
 }
 ?>
